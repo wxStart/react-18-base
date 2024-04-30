@@ -18,7 +18,7 @@
     "check-conflict": "bash .husky/check-conflict.sh"
   },
   "lint-staged": {
-    "**/*.{js,jsx,ts,tsx,json}": [
+    "**/*.{js,jsx,ts,css,scss,tsx,json}": [
       "prettier --write src/"
     ]
   },

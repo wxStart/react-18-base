@@ -1,19 +1,17 @@
 #root {
-  max-width:1280px;
-  padding: 2rem;
+  max-width: 1280px;
   margin: 0 auto;
   text-align: center;
-  background:#fff;
+  background: #fff;
 
-
+  padding: 2rem;
 }
 
 .logo {
-
   transition: filter 300ms;
   will-change: filter;
-  height:6em;
-  padding:1.5em;
+  height: 6em;
+  padding: 1.5em;
 }
 
 .logo:hover {
