@@ -9,11 +9,11 @@ module.exports = {
     ],
     overrides: [
       {
-        files: ['**/*.(scss|css|vue|html)'],
+        files: ['**/*.(scss|css|jsx|js|ts|tsx|html)'],
         customSyntax: 'postcss-scss',
       },
       {
-        files: ['**/*.(vue|html)'],
+        files: ['**/*.(js|jsx|ts|tsx|html)'],
         customSyntax: 'postcss-html',
       },
     ],
