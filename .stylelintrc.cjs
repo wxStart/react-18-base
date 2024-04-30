@@ -1,9 +1,7 @@
 module.exports = {
   extends: [
     'stylelint-config-standard', // 配置stylelint 扩展插件
-    'stylelint-confit-html/vue', // 配vue 中 template样式格式化
     'stylelint-config-standard-scss', // stylelint scss插件
-    'stylelint-config-recommended-vue/scss', // 配置vue中的scss样式格式化
     'stylelint-config-recess-order', // 配置 stylelint css属性书写顺序
     'stylelint-config-prettier', // 配置stylelint和prettier兼容
   ],
